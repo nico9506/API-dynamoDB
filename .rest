@@ -1,0 +1,23 @@
+GET http://localhost:3000/characters/1 HTTP/1.1
+
+
+#POST http://localhost:3000/characters/ HTTP/1.1
+#content-type: application/json
+
+#{
+#     "id": "123456789",
+#     "name": "Nico",
+#     "desc": "IT Student"
+# }
+
+
+# PUT http://localhost:3000/characters/123456789 HTTP/1.1
+# content-type: application/json
+
+# {
+#     "id": "123456789",
+#     "name": "Nico",
+#     "desc": "WebDev Student"
+# }
+
+# DELETE http://localhost:3000/characters/123456789 HTTP/1.1

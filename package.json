@@ -1,31 +1,32 @@
 {
-  "name": "api-dynamodb",
-  "version": "1.0.0",
-  "description": "Harry Potter API using Express and DynamoDB",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nico9506/API-dynamoDB.git"
-  },
-  "keywords": [
-    "API",
-    "dynamoDB",
-    "node",
-    "express"
-  ],
-  "author": "Nicolas Lopez",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/nico9506/API-dynamoDB/issues"
-  },
-  "homepage": "https://github.com/nico9506/API-dynamoDB#readme",
-  "dependencies": {
-    "aws-sdk": "^2.1599.0",
-    "axios": "^1.6.8",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2"
-  }
+    "name": "api-dynamodb",
+    "version": "1.0.0",
+    "description": "Harry Potter API using Express and DynamoDB",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nico9506/API-dynamoDB.git"
+    },
+    "keywords": [
+        "API",
+        "dynamoDB",
+        "node",
+        "express"
+    ],
+    "author": "Nicolas Lopez",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/nico9506/API-dynamoDB/issues"
+    },
+    "homepage": "https://github.com/nico9506/API-dynamoDB#readme",
+    "dependencies": {
+        "aws-sdk": "^2.1599.0",
+        "axios": "^1.6.8",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "nodemon": "^3.1.0"
+    }
 }

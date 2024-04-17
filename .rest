@@ -1,4 +1,4 @@
-GET http://localhost:3000/characters/1 HTTP/1.1
+GET http://localhost:3000/characters/0 HTTP/1.1
 
 
 #POST http://localhost:3000/characters/ HTTP/1.1
